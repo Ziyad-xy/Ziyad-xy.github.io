@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+    transition: background-color 0.5s;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+#btn-blue { background-color: #00a8ff; }
+#btn-green { background-color: #178106; }
+#btn-pink { background-color: #e84393; }
+
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
